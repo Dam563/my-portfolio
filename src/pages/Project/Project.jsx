@@ -25,9 +25,15 @@ const Project = () => {
         <a href='https://github.com/Dam563/mock-up' className='link_btn'>Live Link</a>
         </figure>
         <figure>
+        <img src={paul} alt='Paul Amusan' className='paul'/>
+        <figcaption>This is a simple portfolio landing page created with HTML and CSS.</figcaption>
+        <a href='https://github.com/Dam563/portfolio_Page' className='link_btn'>GitHub Link</a>
+       <a href='https://eclectic-beijinho-06d366.netlify.app/' className='link_btn'>Live Link</a>
+        </figure>
+        <figure>
         <img src={signup} alt='Paul Amusan' className='paul'/>
         <figcaption>This is a simple sign up page created with HTML and CSS.</figcaption>
-        <a href='https://eclectic-beijinho-06d366.netlify.app/' className='link_btn'>GitHub Link</a>
+        <a href='https://github.com/Dam563/sign_Up_Page' className='link_btn'>GitHub Link</a>
        <a href='https://classy-tanuki-22f8fa.netlify.app/' className='link_btn'>Live Link</a>
         </figure>
         </div>
@@ -36,7 +42,7 @@ const Project = () => {
         <img src={tynker} alt='Paul Amusan' className='paul'/>
         <figcaption>This is the clone of the landing page of Tynker <br/>(a coding school for kids) using React Js and CSS.</figcaption>
         <a href='https://github.com/Dam563/Tynker_clone' className='link_btn'>GitHub Link</a>
-        <a href='' className='link_btn'>Live Link</a>
+        <a href='https://thriving-kleicha-a37c37.netlify.app/' className='link_btn'>Live Link</a>
         </figure>
         <figure>
         <img src={todo} alt='Paul Amusan' className='pauls'/>
