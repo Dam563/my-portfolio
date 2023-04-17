@@ -1,0 +1,216 @@
+@media screen and (max-width: 425px){
+    .navbar_div{
+        margin-left: 80px !important;
+        margin-bottom: 20px !important;
+    }
+    .container{
+        display: block !important;
+        border: none !important;
+        font-size: 14px !important;
+        width: 100% !important;
+    }
+    .contact{
+        width: 90% !important;
+        background: none !important;
+    }
+    #contact-p{
+        font-size: 14px !important;
+    }
+    .left_side{
+        margin-bottom: 20px !important;
+    }
+    .leftside-ones{
+        padding: 5px 10px !important;
+        width: 80% !important;    
+       }
+       .leftside-one{
+        padding: 5px 10px !important;
+        width: 80% !important;
+       }
+       .input, .send_button{
+        width: 90% !important;
+       }
+       textarea{
+        width: 97% !important;
+       }
+       .right_side{
+        width: 90% !important;
+    }
+    form{
+        display: block !important;
+    }
+}
+
+
+
+
+
+.navbar_div{
+    /* float: right; */
+    margin-left: 900px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.contact{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: url(../../assets/world.png) 0 0 no-repeat,url(../../assets//world.png) 100% 100% no-repeat;;
+ /* background-size: cover; */
+ background-size: 18vw, 18vw;
+ height: 90vh;
+ background-repeat: no-repeat;
+}
+#contact-p{
+    /* width: 80%; */
+    text-align: center;
+    font-size: 18px; 
+    font-family: "Poppins", monospace;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: slideinns;
+}
+.contact_me{
+    text-align: center;
+    font-family: "Oswald", monospace;
+    font-size: 28px;
+    color: palevioletred;
+    cursor: pointer;
+}
+.contact-me:hover{
+    color: blueviolet;
+}
+.container{
+    width: 70%;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 30px;
+    /* margin-left: 40px; */
+    gap: 5.5rem;
+    /* background: white; */
+    border: 1px solid plum;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    /* justify-content: space-between; */
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: slideins;
+} 
+
+       
+
+.right_side{
+    width: 60%;
+    /* height: auto; */
+    /* color: white; */
+}
+form{
+    display: flex;
+    flex-direction: column;
+    /* flex-basis: 70%; */
+}
+.input{
+    margin-bottom: 10px;
+    border: 1px solid plum;
+    font-family: "Poppins", monospace;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 80%;
+    padding: 15px 15px;
+    background-color: plum;
+    color: white; 
+     /* width: 70%; */
+}
+textarea{
+    width: 83%;
+    border: 1px solid plum;
+    background-color: plum;
+    font-family: "Poppins", monospace;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.send_button{
+    width: 40%;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 1px solid plum;
+    font-family: "Oswald", monospace;
+    font-size: 18px;
+    background-color: plum;
+    color: black;
+    cursor: pointer;
+}
+.send_button:hover{
+    background-color: purple;
+}
+a{
+    text-decoration: none;
+    color: plum;
+}
+a:hover{
+    color: blueviolet;
+}
+.leftside-one{
+    color: palevioletred;
+ border: 1px solid white;
+ font-family: "Oswald", monospace;
+ border-radius: 5px;
+ padding: 10px 14px;
+ text-align: center;
+ cursor: pointer;
+}
+.leftside-ones{
+    color: palevioletred;
+ border: 1px solid white;
+ border-radius: 5px;
+ font-family: "Oswald", monospace;
+    padding: 15px 20px;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+   }
+   .leftside-one:hover{
+    background-color: purple;
+   }
+   .leftside-ones:hover{
+    background-color: purple;
+   }
+
+   @keyframes slideins {
+    from {
+        margin-top: 100%;
+        width: 100%;
+    }
+
+    to {
+        margin-top: 0%;
+        width: 100%;
+    }
+}
+
+@keyframes slideinns {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}

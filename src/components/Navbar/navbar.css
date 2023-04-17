@@ -1,0 +1,28 @@
+@media screen and (max-width: 425px) {
+  .linkone{
+    font-size: 12px !important;
+  }
+}
+
+
+
+
+.navbar{
+  text-align: center;
+}
+
+.linkone{
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+  }
+  .linkone:hover{
+    border: 1 px solid white;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+  }
+  

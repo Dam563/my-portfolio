@@ -1,0 +1,75 @@
+@media screen and (max-width: 425px) {
+    .my_projects{
+        display: block !important;
+        margin-left: 2px !important;
+        font-family: "Poppins", monospace;
+        font-size: 12px !important;
+    }
+    figcaption{
+        text-align: center;
+    }
+    .paul{
+        width: 250px !important;
+          font-size: 12px;
+          text-align: center;
+        height: 150px;
+    }
+    .link_btn{
+        font-size: 12px;
+        padding: 5px 10px !important;
+    }
+    .pauls{
+        width: 250px !important;
+    }
+} 
+
+
+.paul{
+width: 350px;
+    /* height: 200px; */
+}
+.pauls{
+    width: 400px;
+    height: 150px;
+}
+.my_projects{
+    display: flex;
+    margin-left: 100px;
+    font-family: "Poppins", monospace;
+    font-size: 14px;
+    /* gap: 10px; */
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: slideins;
+    /* background: url(../../assets/world.png) 0 0 no-repeat,url(../../assets//world.png) 100% 100% no-repeat;;
+ background-size: cover;
+ background-size: 20vw, 20vw;
+ height: 50vh;
+ background-repeat: no-repeat;
+    width: 30%; */
+}
+.link_btn{
+    padding: 10px 15px;
+    background-color: plum;
+    border: 1px solid plum;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.project-figure{
+    
+}
+
+
+@keyframes slideins {
+    from {
+        margin-top: 100%;
+        width: 100%;
+    }
+
+    to {
+        margin-top: 0%;
+        width: 100%;
+    }
+}
